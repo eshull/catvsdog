@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Frijole" rel="stylesheet">
+
     <title>Dogs Vs Cats</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -12,14 +14,23 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 cat">
-          <img src="img/cat.png" alt="cat">
-
+          <img src="img/cat.png" alt="cat" class="img-responsive">
+          <button id="cat-button" type="button" class="btn btn-secondary btn-lg btn-block">Cats Are Better!!!</button>
+          <div class="arguments-cat">
+            <ul id="cat-ul">
+              <li></li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 dog">
-          <img src="img/dog.png" alt="dog">
-
+          <img src="img/dog.png" alt="dog" class="img-responsive">
+            <button id="dog-button" type="button" class="btn btn-secondary btn-lg btn-block">Dogs Are Better!!!</button>
+          <div class="arguments-dog">
+            <ul id="dog-ul">
+              <li></li>
+            </ul>
+          </div>
         </div>
-
       </div>
     </div>
   </body>
